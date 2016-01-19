@@ -30,39 +30,39 @@
 >  四大组件
 
 * Activity(活动)
-	1. 生命周期
-	2. 任务栈
-    3. Activity的启动模式
-    4. Intent和Intent-Filter
-    5. 转移到AppCompat库(AppCompatActivity)
-    6. 管理与技巧 
-    7. 你所需要知道的Context细节
-	8. 常见问题集
-	9. **使用场景与案例**
+	* 生命周期
+	* 任务栈
+	* Activity的启动模式
+	* Intent和Intent-Filter
+	* 转移到AppCompat库(AppCompatActivity)
+	* 管理与技巧 
+	* 你所需要知道的Context细节
+	* 常见问题集
+	* **使用场景与案例**
 
 * Content Provider（内容提供者）
- 	1. 访问其他程序的数据(系统和三方的)
-	2. 创建自己的Content Provider
-	3. Content Provider和Sqlite存储方式的对比
-	4. 常见问题集
-	5. **使用场景与案例**
+ 	* 访问其他程序的数据(系统和三方的)
+	* 创建自己的Content Provider
+	* Content Provider和Sqlite存储方式的对比
+	* 常见问题集
+	* **使用场景与案例**
 
 * Service（服务）
-	1. 基础使用
-	2. 生命周期
-	3. 与Activity的通信
-	4. 前台Service和IntentService
-	5. Android多线程编程
-	6. Handler机制
-	7. AIDL的介绍 
-	8. 常见问题集
-	9. **使用场景与案例**
+	* 基础使用
+	* 生命周期
+	* 与Activity的通信
+	* 前台Service和IntentService
+	* Android多线程编程
+	*  Handler机制
+	*  AIDL的介绍 
+	*  常见问题集
+	*  **使用场景与案例**
 
 * BroadcastReceiver（广播通知者）
-    1. 广播的分类和注册方式
-    2. 本地广播机制
-    3. 常见问题集
-    4. **使用场景与案例**
+	* 广播的分类和注册方式
+	* 本地广播机制
+	* 常见问题集
+	* **使用场景与案例**
 
 >  数据存储
 
@@ -139,27 +139,27 @@
 > 高级UI使用
 
 * 高级控件的使用
-	1. RecyclerView
-	2. CardView
-	3. ViewPager
-	4. SlidingTabLayout&TabLayout&ViewPagerIndicator
-	5. SmartTabLayout&PagerSlidingTabStrip
-	6. ActionBar和ToolBar
-	7. ViewDragHelper
+	* RecyclerView
+	* CardView
+	* ViewPager
+	* SlidingTabLayout&TabLayout&ViewPagerIndicator
+	* SmartTabLayout&PagerSlidingTabStrip
+	* ActionBar和ToolBar
+	* ViewDragHelper
 * SwipeRefreshLayout的使用
 * Design Support Library库的使用
 * 图表引擎的使用
 * view的事件体系
-	1. view的滑动
-	2. view的分发机制
-	3. 常见问题集
-	4. 使用场景与案例
+	* view的滑动
+	* view的分发机制
+	* 常见问题集
+	* 使用场景与案例
 * view的工作原理
 * 自定义view
-	1. 继承view
-	2. 继承ViewGroup
-	3. 组合控件
-	4. 使用场景与案例
+	* 继承view
+	* 继承ViewGroup
+	* 组合控件
+	* 使用场景与案例
 * UI Hierarchy( Hierarchy Viewer使用)
 * 常见问题集
 * **使用场景与案例**
