@@ -1,5 +1,6 @@
 # 初级
 
+> * 开发环境
 
 * Android开发环境Android Studio搭建
 * Android Studio的配置和使用
@@ -7,13 +8,13 @@
 * 应用程序的结构
 * LogCat日志的简单使用
 
-----------
+> * 基础UI
 
 * Android开发中常用的布局
 * Android开发中常用的基础控件
 * 高级控件ListView,GridView
 
-----------
+> * 四大组件
 
 * Android四大组件-Activity
 * Activity的生命周期
@@ -25,39 +26,12 @@
 
 ----------
 
-* Android数据存储-SharedPreference
-* Android数据存储-文件
-* Android数据存储-sqlite
-
-----------
-
-* 阶段案例：模拟QQ登陆
-
-----------
-
-* Android四大组件-BroadcastReceiver
-* 广播的分类和注册方式
-* 本地广播机制
-
-----------
-
-* Fragment的简单使用
-* Fragment的使用方式
-* Fragment的生命周期
-* Fragment和Activity的对比
-* Fragment和Activity的通信
-* Fragment和Fragment的通信
-* EventBus简介
-
-----------
-
 * Android四大组件-Content Provider
 * 访问其他程序的数据(系统和三方的)
 * 创建自己的Content Provider
 * Content Provider和Sqlite存储方式的对比
 
 ----------
-
 
 * Android四大组件-Service
 * Android多线程编程
@@ -69,6 +43,29 @@
 * AIDL的介绍
 
 ----------
+
+* Android四大组件-BroadcastReceiver
+* 广播的分类和注册方式
+* 本地广播机制
+
+> * 数据存储
+
+* Android数据存储-SharedPreference
+* Android数据存储-文件
+* Android数据存储-sqlite
+* 阶段案例：模拟QQ登陆
+
+> * Fragment的使用
+
+* Fragment的简单使用
+* Fragment的使用方式
+* Fragment的生命周期
+* Fragment和Activity的对比
+* Fragment和Activity的通信
+* Fragment和Fragment的通信
+* EventBus简介
+
+> * 网络相关
 
 * Android网络访问
 * 基础网络协议
@@ -88,17 +85,18 @@
 * Fresco的使用
 * Retrofit的使用
 * Native与H5交互
-
-----------
-
 * 阶段案例：百度车联网提供的API做天气预报app
 * 阶段案例：百度车联网提供的API做上映电影查看app
 
-----------
+> * 多媒体
 
 * Android多媒体
 * 调用相机和相册
 * 音频和视频
+
+> * 运行时权限
+
+* Runtime permissions
 
 ----------
 
