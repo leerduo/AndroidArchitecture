@@ -261,6 +261,11 @@
 * 主界面搭建
 * ...
 
+> 综合
+
+* 商城客户端/新闻客户端/微博客户端...
+
+
 参考：
 * [courses of inthecheesefactory](http://inthecheesefactory.com/courses/android)
 * [codepath](http://guides.codepath.com/android)
