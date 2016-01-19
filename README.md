@@ -12,15 +12,16 @@
 >  基础UI
 
 * resources资源介绍
-	** anim
-	2. Selector
-	3. Styles&Themes
-	4. raw
-	5. menu
-	6. 9-Patches
-	7. dp&sp&px
-	8. Gravity&layout_gravity
-	9. Margin&padding
+	1 anim
+	2 Selector
+	3 Styles&Themes
+	4 raw
+	5 menu
+	6 9-Patches
+	7 dp&sp&px
+	8 Gravity&layout_gravity
+	9 Margin&padding
+
 * 常用的基础布局
 * 常用的基础控件
 * 高级控件ListView,GridView
