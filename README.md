@@ -1,75 +1,78 @@
 # 初级
 
-> * 开发环境
+>  开发环境
 
-* Android开发环境Android Studio搭建
-* Android Studio的配置和使用
-* 搭建快速的模拟器
-* 应用程序的结构
-* LogCat日志的简单使用
-* Gradle介绍
-* 加速build
+* Android Studio安装与配置
+* Android Studio使用技巧
+* 比真机还快的模拟器-Genymotion
+* Gradle学习
+* 了解android应用程序的结构
+* 常见问题集
 
-> * 基础UI
+>  基础UI
 
-* Android resources介绍
-* Android开发中常用的布局
-* Android开发中常用的基础控件
-* Margin&padding
-* Gravity&layout_gravity
-* dp&sp
-* 9-Patches
-* Selector
-* Input Events
-* Styles&Themes
+* resources资源介绍
+	1. anim
+	2. Selector
+	3. Styles&Themes
+	4. raw
+	5. menu
+	6. 9-Patches
+	7. dp&sp&px
+	8. Gravity&layout_gravity
+	9. Margin&padding
+* 常用的基础布局
+* 常用的基础控件
 * 高级控件ListView,GridView
-* Android的View和ViewGroup
+* 常见问题集
+* **使用场景与案例**
 
-> * 四大组件
+>  四大组件
 
-* Android四大组件-Activity
-* 任务栈
-* Activity的生命周期
-* Intent和Intent-Filter
-* Activity的管理
-* Activity的启动模式
-* Activity之间数据的传递
-* 转移到AppCompat库(AppCompatActivity)
-* 配置改变对Activity的影响(屏幕旋转等)
-* Context上下文介绍
+* Activity(活动)
+	1. 生命周期
+	2. 任务栈
+    3. Activity的启动模式
+    4. Intent和Intent-Filter
+    5. 转移到AppCompat库(AppCompatActivity)
+    6. 管理与技巧 
+    7. 你所需要知道的Context细节
+	8. 常见问题集
+	9. **使用场景与案例**
 
-----------
+* Content Provider（内容提供者）
+ 	1. 访问其他程序的数据(系统和三方的)
+	2. 创建自己的Content Provider
+	3. Content Provider和Sqlite存储方式的对比
+	4. 常见问题集
+	5. **使用场景与案例**
 
-* Android四大组件-Content Provider
-* 访问其他程序的数据(系统和三方的)
-* 创建自己的Content Provider
-* Content Provider和Sqlite存储方式的对比
+* Service（服务）
+	1. 基础使用
+	2. 生命周期
+	3. 与Activity的通信
+	4. 前台Service和IntentService
+	5. Android多线程编程
+	6. Handler机制
+	7. AIDL的介绍 
+	8. 常见问题集
+	9. **使用场景与案例**
 
-----------
+* BroadcastReceiver（广播通知者）
+	1. 广播的分类和注册方式
+    2. 本地广播机制
+    3. 常见问题集
+    4. **使用场景与案例**
 
-* Android四大组件-Service
-* Android多线程编程
-* Handler机制
-* Service的基础使用
-* Service的生命周期
-* Service和Activity的通信
-* 前台Service和IntentService
-* AIDL的介绍
+>  数据存储
 
-----------
+* SharedPreference
+* 文件
+* sqlite
+* **使用场景与案例**
+* **阶段案例：模拟QQ登陆**
 
-* Android四大组件-BroadcastReceiver
-* 广播的分类和注册方式
-* 本地广播机制
-
-> * 数据存储
-
-* Android数据存储-SharedPreference
-* Android数据存储-文件
-* Android数据存储-sqlite
-* 阶段案例：模拟QQ登陆
-
-> * Fragment的使用
+>  Fragment（碎片）的使用
 
 * Fragment的简单使用
 * Fragment的使用方式
@@ -82,9 +85,10 @@
 * Fragment和Fragment的通信
 * EventBus简介
 * otto简介
+* **使用场景与案例**
 
 
-> * 网络相关
+>  网络相关
 
 * Android网络访问
 * 基础网络协议
@@ -106,20 +110,25 @@
 * Native与H5交互
 * 阶段案例：百度车联网提供的API做天气预报app
 * 阶段案例：百度车联网提供的API做上映电影查看app
+* 常见问题集
+* **使用场景与案例**
 
-> * 多媒体
+> 多媒体
 
 * Android多媒体
 * 调用相机和相册
 * 音频和视频
+* 常见问题集
+* **使用场景与案例**
 
 > 动画
 
 * View动画
 * 属性动画
+* 常见问题集
+* **使用场景与案例**
 
-
-> * 运行时权限
+>  运行时权限
 
 * Runtime permissions
 
@@ -127,56 +136,65 @@
 
 # 进阶
 
-> * 高级UI使用
+> 高级UI使用
 
-* RecyclerView,CardView的使用
-* ViewPager
-* SlidingTabLayout&TabLayout&ViewPagerIndicator
-* SmartTabLayout&PagerSlidingTabStrip
+* 高级控件的使用
+	1. RecyclerView
+	2. CardView
+	3. ViewPager
+	4. SlidingTabLayout&TabLayout&ViewPagerIndicator
+	5. SmartTabLayout&PagerSlidingTabStrip
+	6. ActionBar和ToolBar
+	7. ViewDragHelper
 * SwipeRefreshLayout的使用
 * Design Support Library库的使用
-* ActionBar和ToolBar
-* ViewDragHelper的使用
 * 图表引擎的使用
-* View绘制流程
-* Android事件分发机制
-* 自定义控件
-* 自定义View和ViewGroup
+* view的事件体系
+	1. view的滑动
+	2. view的分发机制
+	3. 常见问题集
+	4. 使用场景与案例
+* view的工作原理
+* 自定义view
+	1. 继承view
+	2. 继承ViewGroup
+	3. 组合控件
+	4. 使用场景与案例
 * UI Hierarchy( Hierarchy Viewer使用)
+* 常见问题集
+* **使用场景与案例**
 
-
-
-> * 数据库框架
+> 数据库框架
 
 * realm
 * ormlite
 * greendao
 
-> * 网络请求封装和源码分析(含对比)
+> 网络请求封装和源码分析(含对比)
 
 * AsyncHttpClient
 * Volley
 * okhttp
 * retrofit
 
-> * 图片缓存开源库及其封装(含对比)
+> 图片缓存开源库及其封装(含对比)
 
 * Picasso
 * glide
 * fresco
 
-> * 组件通信
+> 组件通信
 
 * otto
 * EventBus
 
-> * 依赖注入
+> 依赖注入
 
 * dagger
 * ButterKnife
 * RoboGuice
 
-> * 三方SDK集成
+> 三方SDK集成
 
 * 支付平台以及支付SDK使用
 * 国内主流地图框架介绍以及使用
@@ -186,7 +204,7 @@
 * 语音SDK的使用
 * 云端数据(Bmob,leancloud的使用)
 
-> * 内存优化
+> 内存优化
 
 * Dalvik和ART虚拟机的区别
 * Android Studio提供的Memory Monitor
@@ -200,8 +218,6 @@
 
 > * 插件式开发
 
-> * RxJava
-
 > * 蓝牙开发
 
 > * 硬件加速解决方案
@@ -210,28 +226,31 @@
 
 > * 传感器
 
-
 > * 项目重构
 
 * mvp+dagger2+rxjava+retrofit
 
-> * NDK开发
+> RxJava
+
+* [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
+
+> NDK开发
 
 * NDK使用场景
 * NDK开发
 
-> * 打包上线
+> 打包、更新
 
 * 线上热修复
 * 增量升级
 * 多渠道打包
+* 自动化打包
 
-
-
-
-
-
-
+> 一个App的诞生之路
+* 引导页、启动页
+* 登录、注册
+* 主界面搭建
+* ...
 
 参考：
 * [courses of inthecheesefactory](http://inthecheesefactory.com/courses/android)
