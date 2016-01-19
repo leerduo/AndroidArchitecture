@@ -7,22 +7,36 @@
 * 搭建快速的模拟器
 * 应用程序的结构
 * LogCat日志的简单使用
+* Gradle介绍
+* 加速build
 
 > * 基础UI
 
+* Android resources介绍
 * Android开发中常用的布局
 * Android开发中常用的基础控件
+* Margin&padding
+* Gravity&layout_gravity
+* dp&sp
+* 9-Patches
+* Selector
+* Input Events
+* Styles&Themes
 * 高级控件ListView,GridView
+* Android的View和ViewGroup
 
 > * 四大组件
 
 * Android四大组件-Activity
+* 任务栈
 * Activity的生命周期
 * Intent和Intent-Filter
 * Activity的管理
 * Activity的启动模式
 * Activity之间数据的传递
 * 转移到AppCompat库(AppCompatActivity)
+* 配置改变对Activity的影响(屏幕旋转等)
+* Context上下文介绍
 
 ----------
 
@@ -61,9 +75,14 @@
 * Fragment的使用方式
 * Fragment的生命周期
 * Fragment和Activity的对比
+* FragmentTransaction
+* Fragment Backstack
+* 嵌套Fragment
 * Fragment和Activity的通信
 * Fragment和Fragment的通信
 * EventBus简介
+* otto简介
+
 
 > * 网络相关
 
@@ -94,6 +113,12 @@
 * 调用相机和相册
 * 音频和视频
 
+> 动画
+
+* View动画
+* 属性动画
+
+
 > * 运行时权限
 
 * Runtime permissions
@@ -102,31 +127,113 @@
 
 # 进阶
 
+> * 高级UI使用
+
 * RecyclerView,CardView的使用
+* ViewPager
+* SlidingTabLayout&TabLayout&ViewPagerIndicator
+* SmartTabLayout&PagerSlidingTabStrip
 * SwipeRefreshLayout的使用
 * Design Support Library库的使用
+* ActionBar和ToolBar
+* ViewDragHelper的使用
+* 图表引擎的使用
+* View绘制流程
+* Android事件分发机制
+* 自定义控件
+* 自定义View和ViewGroup
+* UI Hierarchy( Hierarchy Viewer使用)
+
+
+
+> * 数据库框架
+
+* realm
+* ormlite
+* greendao
+
+> * 网络请求封装和源码分析(含对比)
+
+* AsyncHttpClient
+* Volley
+* okhttp
+* retrofit
+
+> * 图片缓存开源库及其封装(含对比)
+
+* Picasso
+* glide
+* fresco
+
+> * 组件通信
+
+* otto
+* EventBus
+
+> * 依赖注入
+
+* dagger
+* ButterKnife
+* RoboGuice
+
+> * 三方SDK集成
+
 * 支付平台以及支付SDK使用
 * 国内主流地图框架介绍以及使用
-* 图表引擎的使用
 * 三方推送平台
 * 三方分享平台
 * 三方统计平台
-* NDK开发
-* 蓝牙开发
-* 插件化开发
 * 语音SDK的使用
-* 高级自定义控件
-* 硬件加速解决方案
-* 手势控制
-* 传感器
-* Bitmap关于OOM的处理
-* Android动画框架
-* 热更新(线上热修复)
-* gradle介绍以及使用
-* RxJava介绍以及使用
-* 依赖注入
-* 增量升级
-* 多渠道打包
 * 云端数据(Bmob,leancloud的使用)
 
+> * 内存优化
 
+* Dalvik和ART虚拟机的区别
+* Android Studio提供的Memory Monitor
+* Allocation Tracking(DDMS)
+* Heap Tool与MAT
+* [LeakCanary](https://github.com/square/leakcanary)
+* ANR监测(工具编写)
+
+
+> * Bitmap关于OOM的处理
+
+> * 插件式开发
+
+> * RxJava
+
+> * 蓝牙开发
+
+> * 硬件加速解决方案
+
+> * 手势控制
+
+> * 传感器
+
+
+> * 项目重构
+
+* mvp+dagger2+rxjava+retrofit
+
+> * NDK开发
+
+* NDK使用场景
+* NDK开发
+
+> * 打包上线
+
+* 线上热修复
+* 增量升级
+* 多渠道打包
+
+
+
+
+
+
+
+
+参考：
+[courses of inthecheesefactory](http://inthecheesefactory.com/courses/android)
+[codepath](http://guides.codepath.com/android)
+[courses of udacity](https://www.udacity.com//course/thanks-for-enrolling?course=ud825)
