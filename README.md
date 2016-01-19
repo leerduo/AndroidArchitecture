@@ -234,6 +234,6 @@
 
 
 参考：
-[courses of inthecheesefactory](http://inthecheesefactory.com/courses/android)
-[codepath](http://guides.codepath.com/android)
-[courses of udacity](https://www.udacity.com//course/thanks-for-enrolling?course=ud825)
+* [courses of inthecheesefactory](http://inthecheesefactory.com/courses/android)
+* [codepath](http://guides.codepath.com/android)
+* [courses of udacity](https://www.udacity.com//course/thanks-for-enrolling?course=ud825)
