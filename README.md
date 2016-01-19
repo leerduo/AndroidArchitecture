@@ -213,8 +213,17 @@
 * [LeakCanary](https://github.com/square/leakcanary)
 * ANR监测(工具编写)
 
+> * Material Design
+
+* Palettes
+* Ripple Animation
+* Activity Transition 
+* [Circular Reveal Animation](http://guides.codepath.com/android/Circular-Reveal-Animation)
+
 
 > * Bitmap关于OOM的处理
+
+> * 适配
 
 > * 插件式开发
 
